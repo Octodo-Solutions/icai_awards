@@ -272,7 +272,7 @@ function AwardMark({ light, size = 200, className = "" }) {
       <text x="100" y="78" textAnchor="middle" style={{ font: "500 9px var(--mono)", letterSpacing: "0.2em", fill: soft }}>AWARDS</text>
       <text x="100" y="126" textAnchor="middle" style={{ font: "500 46px var(--serif)", fill: ink }}>2026</text>
       <line x1="82" y1="140" x2="118" y2="140" stroke={faint} strokeWidth="1" />
-      <text x="100" y="156" textAnchor="middle" style={{ font: "500 8.5px var(--mono)", letterSpacing: "0.24em", fill: soft }}>SRSB · ICAI</text>
+      <text x="100" y="156" textAnchor="middle" style={{ font: "500 8.5px var(--mono)", letterSpacing: "0.24em", fill: soft }}>ICAI</text>
     </svg>
   );
 }
@@ -391,7 +391,7 @@ function PublicSite({ goLogin, categories }) {
         <div className="relative mx-auto max-w-6xl px-6 pt-10 pb-14 sm:pb-20">
           <div className="flex items-baseline justify-between gap-4 pb-4" style={{ borderBottom: `1px solid ${C.hairDark}` }}>
             <span className="lbl text-[10px]" style={{ color: C.leafSoft }}>Sustainability Reporting Standards Board · ICAI</span>
-            <span className="lbl hidden text-[10px] sm:block" style={{ color: C.mist }}>Edition 04 · New Delhi</span>
+            {/* <span className="lbl hidden text-[10px] sm:block" style={{ color: C.mist }}>Edition 04 · New Delhi</span> */}
           </div>
           <div className="grid gap-10 lg:grid-cols-12">
             <div className="lg:col-span-8">
@@ -1639,7 +1639,7 @@ export default function App() {
             <img src={`${import.meta.env.BASE_URL}logo-icai1.png`} alt="ICAI" className="h-9 w-9 object-contain" />
             <div className="text-left leading-tight">
               <div className="ff-display text-[15px]" style={{ color: C.inkSerif }}>Sustainability Awards</div>
-              <div className="lbl text-[9px]" style={{ color: C.leaf }}>SRSB · ICAI</div>
+              <div className="lbl text-[9px]" style={{ color: C.leaf }}>ICAI</div>
             </div>
           </button>
           {!session ? (
