@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 // memoization guards, crashing the AdminConsole on mount. The compiler is only an
 // optimization and is not needed for this prototype.
 export default defineConfig({
+  base: '/icai_awards/',
   plugins: [
     react(),
     tailwindcss(),

@@ -659,7 +659,7 @@ function LoginScreen({ onLogin, onExit }) {
         <AwardMark light size={150} className="pointer-events-none absolute bottom-8 right-8 opacity-90" />
         <div className="relative flex items-center gap-2.5 text-white">
           <div className="grid h-9 w-9 place-items-center rounded-[4px] bg-white p-1">
-            <img src="/logo-icai1.png" alt="ICAI" className="h-full w-full object-contain" />
+            <img src={`${import.meta.env.BASE_URL}logo-icai1.png`} alt="ICAI" className="h-full w-full object-contain" />
           </div>
           <span className="ff-display text-lg">ICAI Sustainability Awards</span>
         </div>
@@ -1636,7 +1636,7 @@ export default function App() {
       <header className="sticky top-0 z-20 border-b" style={{ borderColor: C.hairline, background: "rgba(245,247,242,0.82)", backdropFilter: "blur(10px)" }}>
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3">
           <button className="flex items-center gap-2.5" onClick={() => { if (!session) setRoute("site"); }}>
-            <img src="/logo-icai1.png" alt="ICAI" className="h-9 w-9 object-contain" />
+            <img src={`${import.meta.env.BASE_URL}logo-icai1.png`} alt="ICAI" className="h-9 w-9 object-contain" />
             <div className="text-left leading-tight">
               <div className="ff-display text-[15px]" style={{ color: C.inkSerif }}>Sustainability Awards</div>
               <div className="lbl text-[9px]" style={{ color: C.leaf }}>SRSB · ICAI</div>
