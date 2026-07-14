@@ -1639,7 +1639,7 @@ export default function App() {
             <img src="/logo-icai1.png" alt="ICAI" className="h-9 w-9 object-contain" />
             <div className="text-left leading-tight">
               <div className="ff-display text-[15px]" style={{ color: C.inkSerif }}>Sustainability Awards</div>
-              <div className="lbl text-[9px]" style={{ color: C.leaf }}>SRSB · ICAI · Prototype</div>
+              <div className="lbl text-[9px]" style={{ color: C.leaf }}>SRSB · ICAI</div>
             </div>
           </button>
           {!session ? (
